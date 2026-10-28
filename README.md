@@ -1,4 +1,4 @@
-🫀 # ❤️ Heart & Stroke Risk Prediction
+# 🫀  Heart & Stroke Risk Prediction
 
 A Streamlit web app that estimates cardiovascular risk from a patient's health inputs using a **K-Nearest Neighbors (KNN)** model.
 
