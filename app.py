@@ -194,9 +194,9 @@ div[data-testid="stExpander"] { background:var(--glass); border:1px solid var(--
 # ==================================================================
 @st.cache_resource
 def load_artifacts():
-    model = joblib.load("knn_heart_model.pkl")
-    scaler = joblib.load("heart_scaler.pkl")
-    expected_columns = joblib.load("heart_columns.pkl")
+    model = joblib.load("knn_heart_model.PKL")
+    scaler = joblib.load("heart_scaler.PKL")
+    expected_columns = joblib.load("heart_columns.PKL")
 
     # If it was saved as a method reference, call it to get the actual list
     if callable(expected_columns):
